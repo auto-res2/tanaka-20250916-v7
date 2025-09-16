@@ -1,1 +1,23 @@
-# Please list the required python packages.
+[project]
+name = "ais_kd_project"
+version = "0.1.0"
+description = "Refactored AIS-KD experimental code-base"
+authors = ["ML Researcher <research@example.com>"]
+readme = "README.md"
+requires-python = ">=3.8"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[project.dependencies]
+# The dependency list must use an *array* not a mapping.  The section above is
+# needed by `setuptools`; the array below is consumed by PEP-621 tooling.
+
+[project.optional-dependencies]
+all = []
+
+dependencies = [
+  "torch>=2.0.0",
+  "pyyaml>=6.0",
+  "matplotlib>=3.7",
+]

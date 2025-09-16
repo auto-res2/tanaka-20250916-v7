@@ -1,0 +1,19 @@
+# Full-scale configuration for reproduction of main results
+run_name: iteration1/full_experiment
+seed: 42
+
+model:
+  input_dim: 256
+  num_classes: 10
+
+data:
+  num_samples: 20000
+
+training:
+  epochs: 10
+  batch_size: 128
+  lr: 1e-3
+
+evaluation:
+  num_samples: 5000
+  batch_size: 256

@@ -1,0 +1,19 @@
+# Lightweight configuration file for quick CI smoke-tests
+run_name: iteration1/smoke_test
+seed: 123
+
+model:
+  input_dim: 32
+  num_classes: 4
+
+data:
+  num_samples: 256
+
+training:
+  epochs: 1
+  batch_size: 32
+  lr: 1e-3
+
+evaluation:
+  num_samples: 128
+  batch_size: 64
