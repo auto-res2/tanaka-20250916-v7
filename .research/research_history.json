@@ -1,0 +1,8 @@
+{
+  "research_topic": "small language modelの効率的な学習方法",
+  "queries": [
+    "parameter-efficient fine-tuning",
+    "knowledge distillation small LM",
+    "quantization small LM"
+  ]
+}
