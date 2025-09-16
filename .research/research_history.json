@@ -4,5 +4,52 @@
     "parameter-efficient fine-tuning",
     "knowledge distillation small LM",
     "quantization small LM"
+  ],
+  "research_study_list": [
+    {
+      "title": "Spectral Adapter: Fine-Tuning in Spectral Space"
+    },
+    {
+      "title": "Parameter-Efficient Fine-Tuning Design Spaces"
+    },
+    {
+      "title": "ReFT: Representation Finetuning for Language Models"
+    },
+    {
+      "title": "SVFT: Parameter-Efficient Fine-Tuning with Singular Vectors"
+    },
+    {
+      "title": "Make Pre-trained Model Reversible: From Parameter to Memory Efficient Fine-Tuning"
+    },
+    {
+      "title": "MiniLLM: Knowledge Distillation of Large Language Models"
+    },
+    {
+      "title": "DistiLLM: Towards Streamlined Distillation for Large Language Models"
+    },
+    {
+      "title": "Token-Scaled Logit Distillation for Ternary Weight Generative Language Models"
+    },
+    {
+      "title": "Towards Efficient Pre-Trained Language Model via Feature Correlation Distillation"
+    },
+    {
+      "title": "DDK: Distilling Domain Knowledge for Efficient Large Language Models"
+    },
+    {
+      "title": "Intriguing Properties of Quantization at Scale"
+    },
+    {
+      "title": "The Quantization Model of Neural Scaling"
+    },
+    {
+      "title": "Network Memory Footprint Compression Through Jointly Learnable Codebooks and Mappings"
+    },
+    {
+      "title": "Extreme Compression of Large Language Models via Additive Quantization"
+    },
+    {
+      "title": "QLLM: Accurate and Efficient Low-Bitwidth Quantization for Large Language Models"
+    }
   ]
 }
