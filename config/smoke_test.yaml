@@ -1,5 +1,5 @@
 # Lightweight configuration file for quick CI smoke-tests
-run_name: iteration2/smoke_test
+run_name: iteration3/smoke_test
 seed: 123
 
 teacher:
