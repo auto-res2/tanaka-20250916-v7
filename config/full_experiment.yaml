@@ -1,5 +1,5 @@
 # Full-scale configuration for reproduction of main results
-run_name: iteration8/full_experiment
+run_name: iteration9/full_experiment
 seed: 42
 
 teacher:

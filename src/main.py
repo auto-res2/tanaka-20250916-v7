@@ -22,8 +22,8 @@ def _load_yaml(path: Path) -> Dict:
 def _run(cfg_path: Path) -> None:
     cfg = _load_yaml(cfg_path)
     
-    if not cfg["run_name"].startswith("iteration8/"):
-        cfg["run_name"] = f"iteration8/{cfg['run_name']}"
+    if not cfg["run_name"].startswith("iteration9/"):
+        cfg["run_name"] = f"iteration9/{cfg['run_name']}"
     
     print(f"Loaded configuration from {cfg_path}")
     print(f"Results will be saved to: .research/{cfg['run_name']}")
