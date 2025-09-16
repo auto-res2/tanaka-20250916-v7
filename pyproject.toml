@@ -9,15 +9,20 @@ requires-python = ">=3.8"
 [tool.setuptools.packages.find]
 where = ["src"]
 
-[project.dependencies]
-# The dependency list must use an *array* not a mapping.  The section above is
-# needed by `setuptools`; the array below is consumed by PEP-621 tooling.
+dependencies = [
+  "torch>=2.0.0",
+  "transformers>=4.30.0",
+  "datasets>=2.12.0",
+  "accelerate>=0.20.0",
+  "pyyaml>=6.0",
+  "matplotlib>=3.7",
+  "seaborn>=0.12.0",
+  "scikit-learn>=1.3.0",
+  "scipy>=1.10.0",
+  "numpy>=1.24.0",
+  "pandas>=2.0.0",
+  "tqdm>=4.65.0",
+]
 
 [project.optional-dependencies]
 all = []
-
-dependencies = [
-  "torch>=2.0.0",
-  "pyyaml>=6.0",
-  "matplotlib>=3.7",
-]
